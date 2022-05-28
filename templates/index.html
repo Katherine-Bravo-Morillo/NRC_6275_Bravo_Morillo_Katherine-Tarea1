@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Uso de Bootstrap</title>
     <!--               Bootstrap para varias versiones                    -->
     <!-- --------------------------------------------- -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
@@ -125,51 +125,109 @@
     <!--                              Creacion de Blockquote   -->
     <!--******************************************************************************+  -->
     <blockquote class="blockquote text-center">
-       <center> <p class="mb-0" style="font-size:20px"> La moda no sólo existe en los vestidos. La moda está en el cielo, en las calles, la moda tiene que ver con ideas, la forma en que vivimos y lo qué está sucediendo. -Coco Chanel.La elegancia es la única belleza que nunca desaparece</p></center><br>
+        <center>
+            <p class="mb-0" style="font-size:20px"> La moda no sólo existe en los vestidos. La moda está en el cielo, en
+                las calles, la moda tiene que ver con ideas, la forma en que vivimos y lo qué está sucediendo. -Coco
+                Chanel.La elegancia es la única belleza que nunca desaparece</p>
+        </center><br>
         <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
     </blockquote><br><br><br><br>
-  <!--******************************************************************************+  -->
+    <!--******************************************************************************+  -->
     <!--                              Creacion de CARDS   -->
     <!--******************************************************************************+  -->
     <div class="card-group">
         <div class="card" tyle="height: 270px;">
-            <img src="https://www.cinconoticias.com/wp-content/uploads/Canones-de-belleza.jpg"
-                class="card-img-top" alt="80px" style="height: 470px;">
+            <img src="https://www.cinconoticias.com/wp-content/uploads/Canones-de-belleza.jpg" class="card-img-top"
+                alt="80px" style="height: 470px;">
 
         </div>
         <div class="card" style="height: 270px;">
             <img src="https://cdn0.bodas.net/vendor/75057/3_2/960/jpg/cartel-peluqueria_1_75057_v1.jpeg"
-                class="card-img-top" alt="80px"style="height: 470px;">
-            </div>
-        
+                class="card-img-top" alt="80px" style="height: 470px;">
         </div>
-        <div class="card-group">
+
+    </div>
+    <div class="card-group">
         <div class="card" style="height: 170px;">
             <div class="col-sm-6">
                 <div class="card">
-                  <div class="card-body" style="width: 870px;">
-                    <h5 class="card-title">Influencer de moda</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Click aqui</a>
-                  </div>
+                    <div class="card-body" style="width: 870px;">
+                        <h5 class="card-title">Influencer de moda</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Click aqui</a>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="card" style="height: 170px;">
-                <div class="col-sm-6">
-                    <div class="card">
-                      <div class="card-body" style="width: 870px;">
+        </div>
+        <div class="card" style="height: 170px;">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body" style="width: 870px;">
                         <h5 class="card-title">Diseñadores de moda</h5>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                         <a href="#" class="btn btn-primary">Click aqui</a>
-                      </div>
                     </div>
-                  </div>
                 </div>
-            </div><br><br><br><br>
-        <!--******************************************************************************+  -->
-    <!--                              Creacion de CARDS   -->
+            </div>
+        </div>
+    </div><br><br><br><br>
     <!--******************************************************************************+  -->
+    <!--                              Creacion de NAV  -->
+    <!--******************************************************************************+  -->
+    <div class="card-group">
+        <div class="card" tyle="height: 340pxx;">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                </li>
+            </ul>
+        </div>
+        <!--******************************************************************************+  -->
+        <!--                              Creacion de FORMULARIO-->
+        <!--******************************************************************************+  -->
+        <div class="card" style="height: 340px;">
+            <!-- Estructura del formulario para el ingreso de datos  -->
+            <div class="container" id="advanced-search-form">
+                <center>
+                    <h2>Formulario</h2>
+                </center>
+                <form>
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" class="form-control" placeholder="First name" id="first-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last name</label>
+                        <input type="text" class="form-control" placeholder="Last name" id="last-name">
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" placeholder="Email" id="email">
+                    </div>
+
+
+
+            </div>
+            <div class="clearfix"></div>
+
+            <center> <button type="submit" class="btn btn-info btn-lg btn-responsive" id="search"> <span
+                        class="glyphicon glyphicon-search"></span> Search</button></center>
+            </form>
+        </div>
+
+    </div>
 
 
 </body>
