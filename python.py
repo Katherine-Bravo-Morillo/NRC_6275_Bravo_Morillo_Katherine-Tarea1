@@ -12,6 +12,14 @@ app = Flask(__name__, template_folder='templates')
 def index():
     return render_template('index.html')
 
+#---------------------------------------
+#Ruta de pagina principal
+#---------------------------------------
+@app.route('/contacto')
+
+#Funcion para llamar al archivo de index
+def contacto():
+    return render_template('/contacto.html')
 #iniciamos la aplicacion
 if __name__ == '__main__':
     app.run(debug=True)
