@@ -20,6 +20,14 @@ def index():
 #Funcion para llamar al archivo de index
 def contacto():
     return render_template('/contacto.html')
+#---------------------------------------
+#Ruta de pagina principal
+#---------------------------------------
+@app.route('/servicio')
+
+#Funcion para llamar al archivo de index
+def servicio():
+    return render_template('/servicio.html')
 #iniciamos la aplicacion
 if __name__ == '__main__':
     app.run(debug=True)
