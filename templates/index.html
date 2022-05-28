@@ -76,22 +76,27 @@
   <!--******************************************************************************+  -->
         <!-- Tarjetas Card se encuentra ubicado debajo del carrusel de image  -->
          <!--******************************************************************************+  -->
-         <div class="card bg-dark text-white">
-            <img src="..." class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text">Last updated 3 mins ago</p>
+         <div class="card-group">
+            <div class="card">
+              <img src="https://marketingalternativobtl.com/wp-content/uploads/2021/12/tipos-de-disenos-de-moda.jpg" class="card-img-top" alt="80px">
+             
             </div>
-          </div>
-          <div class="card bg-dark text-white">
-            <img src="..." class="card-img" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text">Last updated 3 mins ago</p>
+            <div class="card">
+              <img src="https://image.shutterstock.com/image-photo/light-bulbs-on-dark-wooden-260nw-354086042.jpg" class="card-img-top" alt="80px">
+             
             </div>
-          </div>
+            <div class="card">
+              <img src="https://thumbs.dreamstime.com/b/beautiful-living-coral-abstract-modern-waving-business-background-design-easy-editing-color-change-other-manipulation-135190910.jpg" class="card-img-top" alt="...">
+             
+            </div>
+            <div class="card">
+                <img src="https://photoscissors.com/images/samples/3-after.jpg" class="card-img-top" alt="...">
+               
+              </div>
+          </div> 
+          
+         
+           
 </body>
 
 
@@ -108,6 +113,16 @@
       .d-block {
         height: 600px;
         object-fit: cover;
+      }
+
+      .card-img-top{
+        height: 80px;
+        object-fit: cover;
+      }
+      .card-group{
+        display: flex;
+        flex-direction: row 4;
+        column-gap: 1%;
       }
 
 </style>
