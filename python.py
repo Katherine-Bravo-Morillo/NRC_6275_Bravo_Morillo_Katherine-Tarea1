@@ -7,6 +7,8 @@ app = Flask(__name__, template_folder='templates')
 #Ruta de pagina principal
 #---------------------------------------
 @app.route('/')
+
+#Funcion para llamar al archivo de index
 def index():
     return render_template('index.html')
 
